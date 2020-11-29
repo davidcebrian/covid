@@ -1,0 +1,13 @@
+<div *ngFor = "let spainInfo of infoSpain">
+    <h1>{{spainInfo.Country}}</h1>
+    <p>Confirmados: {{spainInfo.NewConfirmed}} --- Total: {{spainInfo.TotalConfirmed}} </p>
+    <p>Muertos: {{spainInfo.NewDeaths}} --- Total: {{spainInfo.TotalDeaths}} </p>
+    <p>Recuperados: {{spainInfo.NewRecovered}} --- Total: {{spainInfo.TotalRecovered}} </p>
+</div>
+
+<div>
+    <h1>GENERAL</h1>
+    <p>Confirmados: {{infoGeneral.NewConfirmed}} --- Total: {{infoGeneral.TotalConfirmed}} </p>
+    <p>Muertos: {{infoGeneral.NewDeaths}} --- Total: {{infoGeneral.TotalDeaths}} </p>
+    <p>Recuperados: {{infoGeneral.NewRecovered}} --- Total: {{infoGeneral.TotalRecovered}} </p>
+</div>

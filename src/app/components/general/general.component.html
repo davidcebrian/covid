@@ -1,0 +1,7 @@
+ <div *ngFor = "let infoPais of infoPaises">
+    <h1> {{ infoPais.Country }}</h1>
+    <p>Confirmados: {{infoPais.NewConfirmed}} --- Total: {{infoPais.TotalConfirmed}} </p>
+    <p>Muertos: {{infoPais.NewDeaths}} --- Total: {{infoPais.TotalDeaths}} </p>
+    <p>Recuperados: {{infoPais.NewRecovered}} --- Total: {{infoPais.TotalRecovered}} </p>
+</div>
+
