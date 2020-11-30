@@ -13,7 +13,9 @@ export class SpainComponent implements OnInit {
   infoGeneral: any;
   infoSpain: any;
 
-  constructor(private generalService: GeneralService) { }
+  constructor(private generalService: GeneralService) { 
+    this.infoGeneral = "";
+  }
 
   ngOnInit(): void {
     this.generalService.getInfoGeneral().subscribe( res =>{
