@@ -1,0 +1,16 @@
+.container{
+    width: 20%;
+}
+.nombrePais {
+    background-color: rgba(59, 59, 59, 0.788);
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+.info{
+    background-color: rgba(59, 59, 59, 0.137);
+}
+
+.info h1{
+    border-bottom: 1px solid black;
+}
